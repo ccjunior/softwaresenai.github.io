@@ -6,6 +6,7 @@ description: "avaliação de processos seguros para desenvolvimento de software"
 category: segurança
 gplus-username: FábioElísio
 twitter-username: felisio
+facebook-author: ruianderson
 tags:
 - segurança
 - software
