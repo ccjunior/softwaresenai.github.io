@@ -14,7 +14,7 @@ tags:
 - config
 - configuração
 - infra
-image: "https://www.vagrantup.com/images/vagrant_header_background-482a12a7.png"
+image: "/assets/img/introducao-vagrant-ambiente-windows/vagrant.png"
 ---
 ![Vagrant](/assets/img/introducao-vagrant-ambiente-windows/vagrant.png)
 
