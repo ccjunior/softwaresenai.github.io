@@ -10,25 +10,13 @@ tags:
 - crianças
 - tecnolgia
 - aplicativo
-files:
-  - link: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_b.jpg"
-    thumbnail: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_t.jpg"
-    medium: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_z.jpg"
-    small: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_n.jpg"
-    title: efeito-borboleta.png
-    $$hashKey: 01H
-created_date: "2015-02-03T09:35:52-03:00"
-published: true
-image: "http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_n.jpg"
+
+image: '/assets/img/efeito-borboleta/efeito-borboleta.jpg'
 
 ---
-<p>&nbsp;</p>
 
-<p>&nbsp;</p>
 
-<p style="text-align: center;"><img class="enable ng-scope" ng-click="insertImageCKEditor(file)" ng-repeat="file in files" ng-show="_index === $index" ng-src="http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_n.jpg" src="http://farm9.staticflickr.com/8567/16250037319_7bccddf49a_n.jpg" /></p>
-
-<p>&nbsp;</p>
+![Efeito Borboleta](/assets/img/efeito-borboleta/efeito-borboleta.jpg) 
 
 <p>Na teoria do caos uma borboleta batendo as asas no Jap&atilde;o pode influenciar o clima de uma cidade no Brasil, ou seja, neste conceito mudan&ccedil;as quase insignificantes podem ocasionar impactos j&aacute; mais imaginados.</p>
 
