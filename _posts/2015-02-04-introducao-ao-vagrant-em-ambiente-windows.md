@@ -12,9 +12,9 @@ facebook-author: ruianderson
 tags:
 - vagrant
 - windows
-- config
 - configuração
 - infra
+
 image: "/assets/img/introducao-vagrant-ambiente-windows/vagrant.png"
 ---
 ![Vagrant](/assets/img/introducao-vagrant-ambiente-windows/vagrant.png)
