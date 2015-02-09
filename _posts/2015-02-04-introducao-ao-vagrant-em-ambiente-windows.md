@@ -8,6 +8,7 @@ github: ruioliver
 author-name: Rui Anderson
 twitter-username: ruianderson
 gplus-username: RuiAnderson
+facebook-author: ruianderson
 tags:
 - vagrant
 - windows
