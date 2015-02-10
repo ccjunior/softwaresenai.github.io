@@ -6,8 +6,8 @@ description: "Introdução ao Vagrant"
 category: infra
 github: ruioliver
 author-name: Rui Anderson
-twitter-username: ruianderson
-gplus-username: RuiAnderson
+twitter-username: 
+gplus-username: 
 facebook-author: ruianderson
 tags:
 - vagrant
