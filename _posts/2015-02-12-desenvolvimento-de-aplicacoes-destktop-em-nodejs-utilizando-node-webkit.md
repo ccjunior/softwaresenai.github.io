@@ -122,11 +122,13 @@ Crie o arquivo index.html:
 
 ###Passo 6
 Seu projeto está pronto para ser iniciado. Para visualizar, acesse novamente o terminal, dentro da pasta projeto e digite:
-nwbuild -r ./
+
+        nwbuild -r ./
 
 ###Passo 7
 Para colocar sua aplicação em produção, e gerar um arquivo binário e executável, digite:
-nwbuild -p -osx,win ./
+
+        nwbuild -p -osx,win ./
 
 ###Passo 8
 Será criada uma pasta build dentro do seu projeto. Dentro dela pastas referentes a execução de sua app em osx e win.
