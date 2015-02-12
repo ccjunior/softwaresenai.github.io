@@ -14,10 +14,10 @@ tags:
 
 github: "thiagoleite86"
 author-name: "Thiago Leite"
-image: '/assets/img/avaliacao-de-processos-seguros-para-desenvolvimento-de-software.jpg'
+image: '/assets/img/desenvolvimento-de-aplicacoes-destktop-em-nodejs-utilizando-node-webkit.jpg'
 ---
 
-
+![Node Webkit](/assets/img/desenvolvimento-de-aplicacoes-destktop-em-nodejs-utilizando-node-webkit.jpg)
 
 Já pensou utilizar módulos do Node.js diretamente no seu DOM, através do Javascript? 
 Transformar HTML, CSS, JavaScript em uma aplicação desktop?
