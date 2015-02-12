@@ -17,6 +17,8 @@ author-name: "Fábio Elisio"
 image: '/assets/img/criando-servico-restfull-de-forma-rapida-com-expressjs.jpg'
 ---
 
+![javascript](/assets/img/criando-servico-restfull-de-forma-rapida-com-expressjs.jpg)
+
 O intuito desse tutorial é descrever como gerar rotas padrão RestFull de uma forma rápida usando Express.js 
 
 >Para este tutorial estamos usando o express.js versão 4.8
