@@ -49,6 +49,8 @@ cd c:\projeto
 
 #####Passo 4
 Dentro do diretório projeto crie um arquivo package.json para configurar seu projeto:
+
+```javascript
 {
     "name": "nome-do-projeto",
     "version": "0.0.1",
@@ -59,6 +61,7 @@ Dentro do diretório projeto crie um arquivo package.json para configurar seu pr
         "height": 500
     }
 }
+```
 
 ##main
 Especifica qual página deverá ser aberta quando o node-webkit iniciar seu projeto.
@@ -69,19 +72,31 @@ O nome do pacote. Deverá estar sempre ser "lowercase" e alfa-numérico sem espa
 ##window
 Características da janela de sua aplicação em modo inicial:
 ```title``` (string)Título principal da sua janela, quando a aplicação é iniciada
+
 ```height``` (int)Altura inicial da aplicação
+
 ```width``` (int)Largura inicial da aplicação
+
 ```toolbar``` (boolean)Exibição da barra de navegação
+
 ```icon``` (string)caminho para localização do icone
+
 ```position``` (string)Posição inicial da jenela. Poderá ser "null", "center" ou "mouse". 
+
 ```fullscreen``` (boolean)Se a janela será fullscreen
+
 ```show_in_taskbar``` (boolean)Se a jenela será mostrada na barra de tarefas ou "dock". O valor padrão é "true".
+
 ```frame``` (boolean)Especifica se a aplicação terá a barra de título padrão das janelas do seu Sistema Operacional.
+
 ```show``` (boolean)Especifica se você quer exibir ou esconder sua aplicação na sua inicialização.
+
 ```transparent``` (boolean)Cria transparência na janela da aplicação. Dessa forma você passa a controlar a transparência da sua janela través do CSS.
 
 #####Passo 5
 Crie o arquivo index.html:
+
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -92,6 +107,7 @@ Crie o arquivo index.html:
         Nós estamos utilizand node.js versão: <script>document.write(proccess.version)<script>.
 	</body>
 </html>
+```
 
 #####Passo 6
 Seu projeto está pronto para ser iniciado. Para visualizar, acesse novamente o terminal, dentro da pasta projeto e digite:
