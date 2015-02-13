@@ -32,7 +32,7 @@ Node Webkit traz tudo isso em seu conceito.
 - [Kola](http://koala-app.com/) - Ferramenta para gerenciamento de projeto web e compilação de less, sass e coffescript.
 - [Popcorn Time](http://popcorntime.io/) - Permite qualquer usuário assistir vídeo streaming de torrents em tempo real.
 
-Veja a lista completa em: [https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-node-webkit](https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-node-webkit)
+Veja a lista completa em: [Apps e empresas que utilizam node webkit](https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-node-webkit)
 
 ##Iniciando com o Node Webkit
 Existem diversas formas de trabalhar com o Node Webkit. Vamos para a forma mais simples e objetiva, que é utilizando um módulo do [NPM](https://www.npmjs.org/).
