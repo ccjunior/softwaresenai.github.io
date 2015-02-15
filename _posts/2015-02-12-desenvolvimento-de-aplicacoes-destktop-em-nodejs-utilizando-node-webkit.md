@@ -114,8 +114,9 @@ Crie o arquivo index.html:
     </head>
     <body>
         <h1>Hello World!</h1>
-        Nós estamos utilizand node.js versão: <script>document.write(proccess.version)</script>.
-	</body>
+        Nós estamos utilizando node.js versão: 
+        <script>document.write(proccess.version)</script>
+    </body>
 </html>
 {% endhighlight %}
 
