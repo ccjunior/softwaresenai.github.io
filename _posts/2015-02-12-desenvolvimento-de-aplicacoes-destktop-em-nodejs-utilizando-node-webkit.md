@@ -137,5 +137,5 @@ Será criada uma pasta build dentro do seu projeto. Dentro dela pastas referente
 ##Comandos básicos
 ```nwbuild -r [path]``` Roda o node-webkit para plataforma atual.
 
-```nwbuild -p [plataformas] [path]``` As plataformas são separadas por "virgula", e podem ser: win32,win64,osx32,osx64,linux32,linux64 ['osx32','osx64','win32','win64']
+```nwbuild -p [plataformas] [path]``` As plataformas são separadas por "virgula", e podem ser: win32, win64, osx32, osx64, linux32, linux64 ['osx32', 'osx64', 'win32', 'win64']
 
