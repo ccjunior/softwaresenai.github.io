@@ -2,7 +2,7 @@
 title: Software Senai
 email: senai.software@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Um blog para compartilhamento de conhecimento sobre desenvolvimento de software.
+  Um blog sobre desenvolvimento de software.
 baseurl: ""
 url: "http://softwaresenai.github.io" # the base hostname & protocol for your site
 twitter_username: softwaresenai
