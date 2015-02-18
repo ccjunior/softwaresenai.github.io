@@ -67,17 +67,17 @@ gulp.task('js', function (){
 });
 
 // Imagemin Task
-// gulp.task('imagemin', function(){
-// 	return gulp.src('src/img/**/*')
-// 	.pipe(pumbler())
-// 	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true}))
-// 	.pipe(gulp.dest('assets/img'))
-// });
+ gulp.task('imagemin', function(){
+ 	return gulp.src('src/img/**/*')
+ 	.pipe(pumbler())
+ 	.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true}))
+ 	.pipe(gulp.dest('assets/img'))
+ });
 
 gulp.task('watch', function (){
 	gulp.watch('src/less/**/*.less', ['less']);
 	gulp.watch('src/js/**/*.js', ['js']);
-	// gulp.watch('src/img/**/*.{jpg, png, gif}', ['imagemin']);
+	gulp.watch('src/img/**/*.{jpg, png, gif}', ['imagemin']);
 	gulp.watch(['*.html','index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
