@@ -1,12 +1,11 @@
-{% include logo.html %}
-<header class="header-post" role="banner">
-	<div class="post-content">	
-		<h1 class="post-title" itemprop="name">{{ page.title }}</h1>				
-		<div class="author-post">
-			<div class="photo" itemprop="author" itemscope itemtype="http://schema.org/Person">				
-				<img itemprop="image" src="https://avatars.githubusercontent.com/{{ page.github }}" alt="{{ page.author-name }}">
-				<span class="author-name" itemprop="name"> {{ page.author-name }} </span>				
-			</div>
-		</div>
-	</div>
-</header>
+<section class="header-post">
+	<h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+	<section class="author" itemprop="author">
+		<div class="details" itemscope itemtype="http://schema.org/Person">
+			<a href="https://github.com/{{ page.github}}">
+				<img itemprop="image" class="img-rounded" src="https://avatars.githubusercontent.com/{{ page.github}}" alt="{{ page.author-name }}">
+				<span class="author-name" itemprop="name"> {{ page.author-name }} </span>
+			</a>
+		</div>		
+	</section>
+</section>

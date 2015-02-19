@@ -4,15 +4,7 @@
 	<body>
 		<section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 			{% include header-default.html %}
-			<div class="header-post">				
-				<h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-				<section class="author" itemprop="author">
-					<div class="details" itemscope itemtype="http://schema.org/Person">
-						<img itemprop="image" class="img-rounded" src="https://avatars.githubusercontent.com/{{ page.github}}" alt="{{ page.author-name }}">
-						<h3 class="name"><a itemprop="name" href="">{{ page.author-name }}</a></h3>
-					</div>
-				</section>
-			</div>			
+			{% include header-post.html %}		
 			<article role="article" id="post" class="post-content" itemprop="articleBody">
 				{{content}}
 			</article>
