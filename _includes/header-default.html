@@ -1,3 +1,18 @@
 <header class="header-site" role="banner">
-    {% include logo.html %}        
+	{% include logo.html %}
+	<div class="rss">
+		<a aria-label="Use o RSS para receber todos os posts novos" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+			<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			viewBox="0 0 21.846 21.846" style="enable-background:new 0 0 21.846 21.846;" xml:space="preserve">
+			<g>
+			<path style="fill:#FFF;" d="M3.276,15.779c-1.679,0-3.035,1.359-3.035,3.033c0,1.676,1.356,3.033,3.035,3.033
+			c1.675,0,3.032-1.357,3.032-3.033C6.307,17.138,4.951,15.779,3.276,15.779z"/>
+			<path style="fill:#FFF;" d="M0.241,0v3.62c9.817,0.197,17.741,8.238,17.741,18.104c0,0.041-0.002,0.083-0.002,0.122h3.623
+			c0-0.041,0.003-0.081,0.003-0.122C21.605,9.863,12.054,0.197,0.241,0z"/>
+			<path style="fill:#FFF;" d="M0.241,7.255v3.622c5.815,0.194,10.486,4.981,10.486,10.847c0,0.041-0.001,0.083-0.004,0.122h3.623
+			c0-0.039,0.004-0.081,0.004-0.122C14.349,13.863,8.052,7.452,0.241,7.255z"/>
+			</g>
+			</svg>
+		</a>
+	</div>
 </header>
