@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Node.js para aplicações desktop? Conheça o Node Webkit"
+title:  "Node.js para aplicações desktop? Conheça o Node Webkit (NW.js)"
 date:   2015-02-12 10:00:00
-description: "Desenvolvimento de aplicações desktop em node.js utilizando o Node Web Kit"
-category: Node.js
+description: "Desenvolvimento de aplicações desktop em node.js utilizando o Node Web Kit (NW.js)"
+category: node.js
 twitter-username: thiagoleitedev
 facebook-author: thiagoleitedev
 tags:
+- nw.js
 - node webkit
 - node.js
 - desenvolvimento desktop
@@ -24,8 +25,8 @@ Transformar HTML, CSS, JavaScript em uma aplicação desktop?
 Sua aplicação ser multiplaforma?
 Node Webkit traz tudo isso em seu conceito.
 
-###O que é Node Webkit?
-> O Node Webkit roda em cima do Chromium e node.js. Ele é a junção do [Node.js](http://nodejs.org/) e [WebKit browser](http://www.webkit.org/), que é um projeto open source. Sendo assim, você pode construir aplicações nativas, utilizando apenas HTML, CSS e JavaScript com node-webkit.
+###O que é Node Webkit (NW.js)?
+> O Node Webkit, conhecido atualmente como NW.js roda em cima do Chromium e node.js. Ele é a junção do [Node.js](http://nodejs.org/) e [WebKit browser](http://www.webkit.org/), que é um projeto open source. Sendo assim, você pode construir aplicações nativas, utilizando apenas HTML, CSS e JavaScript com node-webkit.
 
 ###Quem está utilizando?
 - [Intel XDK](http://xdk.intel.com/) - Ferramenta de desenvolvimento de plataforma HTML 5 que oferece um fluxo de trabalho simplificado.
