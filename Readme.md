@@ -1,7 +1,8 @@
 #[Software Senai Blog](senaisoftware.github.io)
 
 ###Como contribuir
- Para criar sua postagem precisamos criar um arquivo markdown na pasta ***_posts*** o nome do seu arquivo deve seguir o padrão de nomeclatura → **ano-mês-dia-nome-do-seu-post.md (md = extensão do markdown)**
+###Como contribuir
+Para criar sua postagem precisamos criar um arquivo markdown na pasta ***_posts*** o nome do seu arquivo deve seguir o padrão de nomeclatura → **ano-mês-dia-nome-do-seu-post.md (md = extensão do markdown)**
 
 ---
 
@@ -44,7 +45,7 @@ Aqui começamos a escrever a postagem. Vale lembrar que não precisamos citar o 
     ![texto alternativo][fotografia]
     [fotografia]: /assets/img/imagem.jpg "Título Opcional"
     ![logo do Google](http://www.google.com/images/logo.gif "O Logo do Google")
-**imagens sempre deixam sua postagem mais rica**
+**imagens sempre deixam sua postagem mais rica, sempre procure o NQTS para ajudar vocês nessa questão, para que nenhuma imagem utilizada viole direitos autorais**
 
 
 
