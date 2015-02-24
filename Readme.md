@@ -1,7 +1,6 @@
 #[Software Senai Blog](senaisoftware.github.io)
 
-###Como contribuir
-###Como contribuir
+###Como contribuir:
 Para criar sua postagem precisamos criar um arquivo markdown na pasta ***_posts*** o nome do seu arquivo deve seguir o padrão de nomeclatura → **ano-mês-dia-nome-do-seu-post.md (md = extensão do markdown)**
 
 ---
