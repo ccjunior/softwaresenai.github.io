@@ -1,7 +1,7 @@
 #[Software Senai Blog](senaisoftware.github.io)
 
 ###Como contribuir
- Para criar sua postagem precisamos criar um arquivo markdown na pasta ***_posts*** o nome do seu arquivo deve seguir o padrão → **ano-mês-dia-nome-do-seu-post.md (md = extensão do markdown)**
+ Para criar sua postagem precisamos criar um arquivo markdown na pasta ***_posts*** o nome do seu arquivo deve seguir o padrão de nomeclatura → **ano-mês-dia-nome-do-seu-post.md (md = extensão do markdown)**
 
 ---
 
@@ -22,7 +22,7 @@
     image: '/assets/img/titulo-de-sua-postagem.jpg ou png'
     ---
 
-Aqui começamos a escrever a postagem. Vale lembrar que não precisamos citar o titulo aqui.
+Aqui começamos a escrever a postagem. Vale lembrar que não precisamos citar o titulo novamente aqui.
 
 ###Aprendendo a usar markdown
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
