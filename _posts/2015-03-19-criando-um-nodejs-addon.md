@@ -74,3 +74,5 @@ console.log(addon.hello());
 {% endhighlight %}
 
 ### Manual Node.js Addon: [Node.js addon manual e documentação](https://nodejs.org/docs/v0.10.28/api/addons.html)
+
+###Código fonte do exemplo: [https://github.com/softwaresenai/helloworld-addon](https://github.com/softwaresenai/helloworld-addon)
