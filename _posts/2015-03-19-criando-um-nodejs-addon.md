@@ -29,7 +29,7 @@ Este é um exemplo mínimo para criação de um addon, exemplificando como expor
 
 
 {% highlight c++ %}
-    include <node.h> //Adiciona referência para a biblioteca do node.js
+    #include <node.h> //Adiciona referência para a biblioteca do node.js
     using namespace v8; //Adiciona referência para a biblioteca v8
     // Define o método que será exportado para o node.js
     void Method(const FunctionCallbackInfo<Value>& args) {
@@ -65,9 +65,12 @@ Este é um exemplo mínimo para criação de um addon, exemplificando como expor
     node-gyp configure build
 
 ### Utilizando o addon
+Arquivo hello.js
+{% highlight javascript %}
 
-`// hello.js`
-`var addon = require('./build/Release/addon');`
-`console.log(addon.hello()); // 'world'`
+var addon = require('./build/Release/addon');
+
+console.log(addon.hello()); 
+{% endhighlight %}
 
 ### Manual Node.js Addon: [Node.js addon manual e documentação](https://nodejs.org/docs/v0.10.28/api/addons.html)
